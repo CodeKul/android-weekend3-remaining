@@ -1,1 +1,1 @@
-include ':app', ':sharedprefs', ':internalsstorage'
+include ':app', ':sharedprefs', ':internalsstorage', ':externalstorage', ':sqlite'

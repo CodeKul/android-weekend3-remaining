@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExternalStorage</string>
+    <string name="btnWrite">Write</string>
+    <string name="btnRead">Read</string>
+</resources>
