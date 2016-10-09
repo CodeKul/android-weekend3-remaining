@@ -62,22 +62,28 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                File file = new File(getFilesDir(),"my.txt");
+                File fileRoot = new File(getFilesDir(),"my");
+                File file = new File(fileRoot,"my.txt");
                 try {
+                    fileRoot.mkdir();
                     file.createNewFile();
+
+                    FileOutputStream fos = new FileOutputStream(file);
+                    fos.write("file provide data".getBytes());
+                    fos.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 Log.i("@codekul","Path is "+file.getAbsolutePath());
 
-                File dir = new File(getFilesDir(),"my");
+                /*File dir = new File(getFilesDir(),"my");
                 dir.mkdir();
 
                 for (String s : fileList()) {
                     Log.i("@codekul","Data is "+s);
                 }
 
-                Log.i("@codekul",getDir("myDir",MODE_PRIVATE).getAbsolutePath());
+                Log.i("@codekul",getDir("myDir",MODE_PRIVATE).getAbsolutePath());*/
             }
         });
     }

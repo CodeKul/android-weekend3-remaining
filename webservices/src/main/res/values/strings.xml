@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebServices</string>
+    <string name="btnParse">Parse</string>
+    <string name="btnFetch">Fetch</string>
+</resources>

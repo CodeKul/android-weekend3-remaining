@@ -1,1 +1,1 @@
-include ':app', ':sharedprefs', ':internalsstorage', ':externalstorage', ':sqlite'
+include ':app', ':sharedprefs', ':internalsstorage', ':externalstorage', ':sqlite', ':contentprovider', ':jsonparsing', ':webservices', ':webconnector'

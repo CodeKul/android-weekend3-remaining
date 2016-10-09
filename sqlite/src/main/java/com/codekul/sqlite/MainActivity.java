@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void insert(DbHelper helper, String userName, String password){
+
+        // /data/data/package/databases/myDb
         SQLiteDatabase sqDb = helper.getWritableDatabase();
 
         ContentValues values = new ContentValues();
