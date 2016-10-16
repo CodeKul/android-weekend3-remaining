@@ -10,14 +10,19 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bluetooth" />
+            <option value="$PROJECT_DIR$/camera" />
             <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/externalstorage" />
             <option value="$PROJECT_DIR$/internalsstorage" />
             <option value="$PROJECT_DIR$/jsonparsing" />
+            <option value="$PROJECT_DIR$/sensors" />
             <option value="$PROJECT_DIR$/sharedprefs" />
             <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/telephony" />
             <option value="$PROJECT_DIR$/webconnector" />
             <option value="$PROJECT_DIR$/webservices" />
+            <option value="$PROJECT_DIR$/wifi" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

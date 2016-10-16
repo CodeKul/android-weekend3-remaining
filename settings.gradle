@@ -1,1 +1,1 @@
-include ':app', ':sharedprefs', ':internalsstorage', ':externalstorage', ':sqlite', ':contentprovider', ':jsonparsing', ':webservices', ':webconnector'
+include ':app', ':sharedprefs', ':internalsstorage', ':externalstorage', ':sqlite', ':contentprovider', ':jsonparsing', ':webservices', ':webconnector', ':sensors', ':wifi', ':bluetooth', ':telephony', ':camera'
